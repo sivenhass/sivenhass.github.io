@@ -6,7 +6,7 @@ email: 158323704@qq.com
 description: "苏文豪的博客；记录生活与感悟的前端小白；Python、Java、c#、c++，这些通通都不会0.0；只会打酱油，哈哈"
 keyword: "HTML；css；JavaScript；jQuery；angular；Vue"
 url: "http://suwenhao.com"              # your host, for absolute URL
-# baseurl: "/blog"         # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
