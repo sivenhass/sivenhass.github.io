@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url('../img/bg_platform.gif') no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+ul, li {
+  list-style: none;
+}
+.fs_14 {
+  font-size: 14px;
+}
+.mr_10 {
+  margin-right: 10px;
+}
+.show_platform {
+  height: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.main, .info {
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  width: 28%;
+}
+.center {
+  width: 40%;
+}
+.right {
+  width: 28%;
+}
+.header {
+  height: 105px;
+  background: url('../img/bg_topimg.png') no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+.content {
+  position: relative;
+  height: calc(100% - 105px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.content .current_time {
+  height: 36px;
+  width: 210px;
+  line-height: 36px;
+  font-size: 14px;
+  color: #9FC1FF;
+  background: url('../img/bg_time.png') no-repeat;
+  background-size: 100%;
+  background-position: center;
+  position: absolute;
+  right: 10px;
+  top: -54px;
+  
+}
+.main .center {
+  background: url('../img/bg_center.png') no-repeat;
+  background-size: 80% 80%;
+  background-position: top;
+}
+.main .center, .main .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .center .center_box {
+  margin-top: 40px;
+  width: 60%;
+}
+.center_bottom_bg_box {
+  width: 100%;
+  height: 130px;
+  background: url(/img/bg_index.da94144b.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.main .center .current {
+  padding-bottom: 26px;
+}
+.main .center .current .current_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 21px;
+  margin-bottom: 16px;
+  padding: 0 10px;
+}
+.current_header_icon_box {
+  display: flex;
+  align-items: center;
+}
+.current_header_icon {
+  height: 6px;
+  width: 6px;
+  border: solid 2px #E7C592;
+  background-image: linear-gradient(45deg, #5C4A59, #E7C592);
+  transform: rotate(314deg);
+  display: inline-block;
+  margin-right: 5px;
+}
+.main .center .current .last_current_money {
+  display: flex;
+  align-items: center;
+  color: #E7C592ee;
+}
+.main .center .current .current_money {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.main .center .users {
+  display: flex;
+  justify-content: space-between;
+}
+.main .center .users .new_users,
+.main .center .users .total_users
+{
+  display: flex;
+  flex-direction: column;
+  height: 86px;
+  width: 154px;
+  background: linear-gradient(to top, #17426733, transparent);
+}
+.new_users .users_title,
+.total_users .users_title {
+  line-height: 40px;
+  color: #519cc9;
+}
+.new_users .users_count,
+.total_users .users_count {
+  font-size: 20px;
+}
+.main .right .sale_title {
+  width: 100%;
+  text-align: left;
+  height: 40px;
+  line-height: 40px;
+}
+.main .right .today_amount {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 240px;
+  width: 100%;
+  background: url('../img/bg_amount.png') no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+.main .right .today_amount_content {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.today_amount_count {
+  font-size: 26px;
+}
+.today_amount_title {
+  color: #95C2FF;
+  font-size: 15px;
+}
+.main .right .profit {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.main .right .profit .total_profit,
+.main .right .profit .profit_rate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 200px;
+  background-size: 100% 100%;
+  background-position: center;
+}
+.total_profit {
+  background: url('../img/bg_profit.png') no-repeat;
+}
+.profit_rate {
+  background: url('../img/bg_profit_rate.png') no-repeat;
+}
+.total_profit span,
+.profit_rate span {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.grid_title,
+.grid_title_plus {
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 10px;
+  display: flex;
+  background-position: left;
+  background-size: 100% 100%;
+}
+.grid_title {
+  background-image: url('../img/bg_title.png');
+}
+.grid_title_plus {
+  background-image: url('../img/bg_tittle_plus.png');
+}
+table tbody {
+  position: relative;
+}
+table thead {
+  display: table-caption;
+  font-size: 15px;
+  color: #9FC1FF;
+  height: 38px;
+  line-height: 38px;
+  background-position: left;
+  background-size: 100% 100%;
+}
+table thead.bg_form {
+  background-image: url('../img/bg_form.png');
+}
+table thead.bg_form_plus {
+  background-image: url('../img/bg_form_plus.png');
+}
+table thead tr {
+  display: inline-block;
+}
+table tr th, table tr td {
+  font-weight: 100;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+table, thead, tbody, tr {
+  width: 100%;
+}
+table tbody {
+  height: 250px;
+  overflow: hidden;
+  font-size: 14px;
+  color: #eee;
+  display: inline-block;
+}
+table tbody tr {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+}
