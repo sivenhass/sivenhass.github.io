@@ -1,9 +1,24 @@
-# HuxBlog Boilerplate
+# sssj
 
-##### This is the boilerplate of [Hux Blog](https://github.com/Huxpro/huxpro.github.io), all documents is over there!
+## Project setup
+```
+yarn install
+```
 
-#### [View Boilerplate &rarr;](http://huangxuan.me/huxblog-boilerplate/)
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
 
-#### [View Live Hux Blog &rarr;](http://huangxuan.me)
+### Compiles and minifies for production
+```
+yarn build
+```
 
-## If you like Hux Blog, Please star [huxpro.github.io repo](https://github.com/Huxpro/huxpro.github.io) instead of this! Thank you!
+### Lints and fixes files
+```
+yarn lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
